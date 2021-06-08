@@ -1,0 +1,194 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph Whiteaker Link Tree</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/style.css' %}"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!-- Body  -->
+  <body>
+    <!-- Wrapper -->
+    <div
+      class="
+        flex-row flex-wrap
+        w-perc-100
+        h-perc-100
+        txt-center
+        justify-space-evenly
+        align-items-center
+      "
+    >
+      <!-- Title -->
+      <div
+        class="
+          m-perc-1
+          p-perc-1
+          flex-item
+          align-self-center
+          txt-center
+          flex-row flex-wrap
+          justify-space-apart
+        "
+      >
+        <h1 class="txt-white m-px-10" style="font-family: 'Lato', sans-serif">
+          Joseph Whiteaker
+        </h1>
+      </div>
+
+      <div
+        class="
+          m-perc-1
+          p-perc-1
+          flex-item flex-wrap
+          align-items-center
+          justify-center
+        "
+      >
+        <img
+          class="card-img align-self-center"
+          src="{% static 'img/profilepic2.png'%}"
+        />
+      </div>
+
+      <!-- Main Content -->
+      <div class="grid m-perc-1 p-perc-1 justify-space-evenly">
+        <div class="align-self-center m-top-px-1 txt-center w-perc-100">
+          <h1 class="txt-white">
+            <span>🔗🔗🔗</span>
+            Links
+          </h1>
+        </div>
+        <div class="align-self-center txt-center hovering-txt w-perc-100">
+          <a
+            href="https://github.com/josephaw1022/Resume/blob/main/Joe-Whiteaker-Resume.pdf"
+            target="_blank"
+          >
+            <h1 class="txt-white"><span>⬇️</span> Download Resume</h1>
+          </a>
+        </div>
+
+        <div
+          class="
+            align-self-center
+            m-top-px-10
+            txt-center
+            hovering-txt
+            w-perc-100
+            bg-transparent
+          "
+        >
+          <a href="https://joseph-whiteaker.netlify.app" target="_blank">
+            <h1 class="txt-red">
+              <span>💻</span>
+              Older Personal Website
+            </h1>
+          </a>
+        </div>
+
+        <div class="align-self-center txt-center hovering-txt">
+          <a
+            href="https://first-angular-app-l86jl4zs2-josephaw1022.vercel.app/"
+            target="_blank"
+          >
+            <h1 class="txt-pink">
+              <span>⚙️🔨</span>
+              (In Progress) New Portfolio Website
+            </h1>
+          </a>
+        </div>
+
+        <div
+          class="
+            align-self-center
+            m-top-px-10
+            txt-center
+            hovering-txt
+            w-perc-100
+          "
+        >
+          <a href="http://github.com/josephaw1022" target="_blank">
+            <h1 style="color: #f1502f; display: initial">
+              <span class="fab fa-github"></span>
+              Github
+            </h1>
+          </a>
+        </div>
+
+        <div
+          class="
+            align-self-center
+            m-top-px-10
+            txt-center
+            hovering-txt
+            w-perc-100
+          "
+        >
+          <a
+            href="https://www.linkedin.com/in/joseph-whiteaker"
+            target="_blank"
+          >
+            <h1 style="color: #0072b1">
+              <span class="fab fa-linkedin-square"></span>
+              LinkedIn
+            </h1>
+          </a>
+        </div>
+        <a href="https://twitter.com/Josephaw2014" target="_blank">
+          <div
+            class="
+              align-self-center
+              m-top-px-10
+              txt-center
+              hovering-txt
+              w-perc-100
+            "
+          >
+            <h1 style="color: #1da1f2">
+              <span class="fab fa-twitter"></span>
+              Twitter
+            </h1>
+          </div>
+        </a>
+      </div>
+      <div class="pad-perc-2 m-top-perc-2">
+        <div
+          class="align-self-center txt-center w-perc-100 b-rad-25 pad-px-2"
+          style="background-color: #fff"
+        >
+          <h1 style="color: #092e20">
+            <span class="fab fa-python"> </span>
+            Created with Django
+          </h1>
+        </div>
+
+        <div class="align-self-center txt-center w-perc-100">
+          <h1 style="color: #ff9900">
+            <span class="fab fa-amazon"></span>
+            Hosted by AWS
+          </h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
