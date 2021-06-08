@@ -500,7 +500,11 @@
 
 @font-face {
   src: url(".extrafonts/nucleo-icons.eot");
-  src: url(".extrafonts/nucleo-icons.eot") format("embedded-opentype"), url(".extrafonts/nucleo-icons.woff2") format("woff2"), url(".extrafonts/nucleo-icons.woff") format("woff"), url(".extrafonts/nucleo-icons.ttf") format("truetype"), url(".extrafonts/nucleo-icons.svg") format("svg");
+  src: url(".extrafonts/nucleo-icons.eot") format("embedded-opentype"),
+    url(".extrafonts/nucleo-icons.woff2") format("woff2"),
+    url(".extrafonts/nucleo-icons.woff") format("woff"),
+    url(".extrafonts/nucleo-icons.ttf") format("truetype"),
+    url(".extrafonts/nucleo-icons.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -29280,11 +29284,6 @@
   height: auto;
   border-radius: 25px;
   overflow: none;
-  transition: 300ms ease;
-}
-
-.card-img:hover {
-  max-height: 270px;
   transition: 300ms ease;
 }
 
